@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us</title>
+	</head>
+	<body>
+		<div id="title">
+			<center>
+			<h1>Farmer Fresh</h1>
+			</center>
+		</div>
+		<div id="navigation">
+			<hr />
+			<center>
+			<p><a href="home.html" target="_blank">Home</a>
+				<a href="menu.html" target="blank">Menu</a>
+				<a href="contactus.html" target="_blank">Contact Us</a></p></center>
+			<hr />
+		</div>
+		<div id="contact">
+			<center>
+			<table>
+				<tr>
+					<td><label for="name">Name:</label></td>
+					<td><input type="text" id="name" name="name"><br /></td>
+				</tr>
+				<tr>
+					<td><label for="email">Email:</label></td>
+					<td><input type="text" id="email" name="email"><br /></td>
+				</tr>
+				<tr>
+					<td><label for="phone">Phone:</label></td>
+					<td><input type="text" id="phone" name="phone"><br /></td>
+				</tr>
+				<tr>
+					<td><label for="reason">Reason for Inquiry</label></td>
+					<td><select id="reason" name="reason">
+							<option value="default" selected>Catering</option>
+							<option value="privateParty">Private Party</option>
+							<option value="feedback">Feedback</option>
+							<option value="other">Other</option>
+						</select><br /></td>
+				</tr>
+				<tr>
+					<td><label for="additionalInformation">Additional Information :</label></td>
+					<td><textarea id="info"></textarea><br /></td>
+				</tr>
+				<tr>
+					<td><label for="visit">Have you been to the restaurant?</label></td>
+					<td><input type="radio" id="choice1" name="question" value="yes">
+							<label for="choice1">Yes</label>
+							<input type="radio" id="choice2" name="question" value="no">
+							<label for="choice2">No</label><br /></td>
+				</tr>
+				<tr>
+					<td><label for="contactDays">Best days to contact you :</label></td>
+					<td><input type="checkbox" id="monday" name="m" value="m">
+							<label for="m">M</label>
+							<input type="checkbox" id="tuesday" name="t" value="t">
+							<label for="m">T</label>
+							<input type="checkbox" id="wednesday" name="w" value="w">
+							<label for="m">W</label>
+							<input type="checkbox" id="thursday" name="th" value="th">
+							<label for="m">Th</label>
+							<input type="checkbox" id="friday" name="f" value="f">
+							<label for="m">F</label></td><br />
+				</tr>
+				<tr>
+					<td rowspan="2" align="center"></td>
+				</tr>
+			</table>
+				<input type="submit" name="send" value="Send Request">
+			</center>
+		</div>
+		<div >
+			<hr />
+			<footer>
+				<center><p>123 Main Street, Indianapolis, Indiana 46240</p>
+				<p>317-123-4567</p></center>
+			</footer>
+		</div>
+	</body>
+</html>
+	

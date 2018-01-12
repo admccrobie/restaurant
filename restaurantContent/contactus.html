@@ -2,35 +2,53 @@
 <html>
 	<head>
 		<title>Contact Us</title>
+		<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<style>
+			.required {
+				font-weight: bold;
+			}
+			table {
+					width: 100%;
+			}
+			td, th {
+				height: 30px;
+			}
+			table, th, td {
+				padding: 5px 10px 5px 10px;
+			}
+			#submit {
+				margin: 12px;
+				text-align: center;
+			}
+			td:first-child {
+				text-align: right;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="title">
-			<center>
 			<h1>Farmer Fresh</h1>
-			</center>
 		</div>
 		<div id="navigation">
 			<hr />
-			<center>
 			<p><a href="home.html" target="_blank">Home</a>
 				<a href="menu.html" target="blank">Menu</a>
-				<a href="contactus.html" target="_blank">Contact Us</a></p></center>
+				<a href="contactus.html" target="_blank">Contact Us</a></p>
 			<hr />
 		</div>
 		<div id="contact">
-			<center>
 			<table>
 				<tr>
-					<td><label for="name">Name:</label></td>
-					<td><input type="text" id="name" name="name"><br /></td>
+					<td><label for="name" class="required">Name:</label></td>
+					<td><input type="text" id="name" name="name" required><br /></td>
 				</tr>
 				<tr>
-					<td><label for="email">Email:</label></td>
-					<td><input type="text" id="email" name="email"><br /></td>
+					<td><label for="email" class="required">Email:</label></td>
+					<td><input type="text" id="email" name="email" required><br /></td>
 				</tr>
 				<tr>
-					<td><label for="phone">Phone:</label></td>
-					<td><input type="text" id="phone" name="phone"><br /></td>
+					<td><label for="phone" class="required">Phone:</label></td>
+					<td><input type="text" id="phone" name="phone" required><br /></td>
 				</tr>
 				<tr>
 					<td><label for="reason">Reason for Inquiry</label></td>
@@ -65,20 +83,17 @@
 							<input type="checkbox" id="friday" name="f" value="f">
 							<label for="m">F</label></td><br />
 				</tr>
-				<tr>
-					<td rowspan="2" align="center"></td>
-				</tr>
 			</table>
-				<input type="submit" name="send" value="Send Request">
-			</center>
+		</div>
+		<div id="submit">
+			<input type="submit" name="send" value="Send Request">
 		</div>
 		<div >
 			<hr />
 			<footer>
-				<center><p>123 Main Street, Indianapolis, Indiana 46240</p>
-				<p>317-123-4567</p></center>
+				<p>123 Main Street, Indianapolis, Indiana 46240</p>
+				<p>317-123-4567</p>
 			</footer>
 		</div>
 	</body>
 </html>
-	

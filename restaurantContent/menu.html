@@ -2,64 +2,90 @@
 <html>
 	<head>
 		<title>Menu</title>
+		<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<style>
+			body {
+				background-color: #4E9CB5 /*some kind of mint */;
+			}
+			.food {
+					width: 100%;
+					text-align: center;
+					font-family: Arial, Helvetica, serif;
+			}
+			th {
+				text-align: center;
+				font-size: 20px;
+			}
+			.beverages {
+				font-family: Arial, Helvetica, serif;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			caption {
+				font-size: 20px;
+				font-weight: bold;
+				padding: 15px 0 5px 0;
+			}
+			table.beverages td {
+				text-align: right;
+				padding: 0 15px 0 0;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="title">
-			<center>
 			<h1>Farmer Fresh</h1>
-			</center>
 		</div>
 		<div id="navigation">
 			<hr />
-			<center>
 			<p><a href="home.html" target="_blank">Home</a>
 				<a href="menu.html" target="blank">Menu</a>
-				<a href="contactus.html" target="_blank">Contact Us</a></p></center>
+				<a href="contactus.html" target="_blank">Contact Us</a></p>
 			<hr />
 		</div>
 		<div id="main">
-			<table align="center">
+			<table class="food">
 				<tr>
-					<th align="center">Burger and Fries</th>
-					<th align="center">Hot Dog and Chips</th>
-					<th align="center">Italian Sausage and Peppers</th>
+					<th>Burger and Fries</th>
+					<th>Hot Dog and Chips</th>
+					<th>Italian Sausage and Peppers</th>
 				</tr>
 				<tr>
-					<td align="center">An American Classic!<br />
+					<td>An American Classic!<br />
 					Your choice - with or without cheese<br />
 					Pickle, onion, tomato, and lettuce <br />
 					Served with our famous thick cut<br />
 					french fries<br />
 					$7.95</td>
-					<td align="center">A Summer Classic!<br />
+					<td>A Summer Classic!<br />
 					Your choice - white or wheat bun<br />
 					Relish, mustard, and  ketchup<br />
 					Served with our house-made chips<br />
 					$7.95</td>
-					<td align="center">An All-Time Favorite!!<br />
+					<td>An All-Time Favorite!!<br />
 					Your choice-mild or spicy<br />
 					Cole slaw<br />
 					Served with garlic mashers<br />
 					$10.95</td>
 				</tr>
 				<tr>
-					<th align="center">Tenderloin Sandwich and Chips</th>
-					<th align="center">House Salad</th>
-					<th align="center">Brisket Sandwich and Fries</th>
+					<th>Tenderloin Sandwich and Chips</th>
+					<th>House Salad</th>
+					<th>Brisket Sandwich and Fries</th>
 				</tr>
 				<tr>
-					<td align="center">Really Hits the Spot!<br />
+					<td>Really Hits the Spot!<br />
 					Plain or Sesame Seed Bun<br />
 					Pickle, onion, tomato, and lettuce<br />
 					Served with our house-made chips<br />
 					$8.95</td>
-					<td align="center">On the Lighter Side<br />
+					<td>On the Lighter Side<br />
 					Your choice - with or without cheese<br />
 					Iceberg lettuce, tomatoes, peppers<br />
 					Thousand Island or Ranch Dressing<br />
 					Served with a dinner roll<br />
 					$6.95</td>
-					<td align="center">A Taste of Texas!<br />
+					<td>A Taste of Texas!<br />
 					Smoked brisket on the thick-cut Texas<br />
 					Toast<br />
 					Cole Slaw<br />
@@ -67,15 +93,32 @@
 					french fries</td>
 				</tr>
 			</table>
+			<table class="beverages">
+					<caption>Beverages</caption>
+					<tr>
+						<td>Root Beer</td>
+						<td>$3.00</td>
+					</tr>
+					<tr>
+						<td>Bottled Water</td>
+						<td>$1.25</td>
+					</tr>
+					<tr>
+						<td>Lemonade</td>
+						<td>$1.00</td>
+					</tr>
+					<tr>
+						<td>Iced Tea</td>
+						<td>$1.25</td>
+					</tr>
+			</table>
 		</div>
 		<div>
 			<hr />
 			<footer>
-				<center>
 				<p>123 Main Street, Indianapolis, Indiana 46240</p>
-				<p>317-123-4567</p></center>
+				<p>317-123-4567</p>
 			</footer>
 		</div>
 	</body>
 </html>
-	

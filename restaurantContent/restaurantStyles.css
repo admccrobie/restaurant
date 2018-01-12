@@ -1,0 +1,31 @@
+/* header and footer formatting for restaurant pages */
+
+h1 {
+  font-size: 50px;
+  line-height: 80px;
+  color: #4C1D5F; /* ALTernate purple by LordBlumier */
+  text-align:center;
+  font-family: Arial, Helvetica, serif;
+}
+footer {
+  font-size: 15px;
+  line-height: normal;
+  text-align: center;
+}
+#navigation {
+  text-align: center;
+}
+a:link {
+  color: #44749d; /*blue unvisited link*/
+}
+a:hover {
+  color:#00B4FF; /*blue*/
+  font-weight: bold;
+}
+a:visited {
+  color: #CAE8A2; /*green link*/
+}
+a:active {
+  color: #FF0066; /*hot pink */
+  text-decoration: none;
+}

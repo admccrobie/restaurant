@@ -2,7 +2,12 @@
 <html>
 	<head>
 		<title>Contact Us</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet" type="text/css" />
+
 		<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+
 		<style>
 			.required {
 				font-weight: bold;
@@ -29,13 +34,15 @@
 		<div id="title">
 			<h1>Farmer Fresh</h1>
 		</div>
-		<div id="navigation">
-			<hr />
-			<p><a href="home.html" target="_blank">Home</a>
-				<a href="menu.html" target="blank">Menu</a>
-				<a href="contactus.html" target="_blank">Contact Us</a></p>
-			<hr />
+		<hr />
+		<div class="navigation">
+				<ul class="nav nav-pills nav-justified">
+						<li><a href="home.html"><span class="glyphicon glyphicon-home"></span></a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li class="active"><a href="contactus.html">Contact Us</a></li>
+				</ul>
 		</div>
+		<hr />
 		<div id="contact">
 			<table>
 				<tr>

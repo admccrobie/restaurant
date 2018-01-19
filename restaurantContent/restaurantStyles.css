@@ -12,9 +12,7 @@ footer {
   line-height: normal;
   text-align: center;
 }
-#navigation {
-  text-align: center;
-}
+
 a:link {
   color: #44749d; /*blue unvisited link*/
 }
